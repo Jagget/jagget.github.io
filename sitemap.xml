@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://jagget.spb.ru/post/good-to-great/</loc>
+    <lastmod>2017-04-11T21:58:25+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jagget.spb.ru/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jagget.spb.ru/</loc>
+    <lastmod>2017-04-11T21:58:25+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jagget.spb.ru/post/</loc>
+    <lastmod>2017-04-11T21:58:25+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jagget.spb.ru/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
