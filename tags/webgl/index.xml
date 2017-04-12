@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 22:45:36 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2017 23:43:10 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/tags/webgl/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Brick (Block) Breaker</title>
+      <link>http://jagget.spb.ru/post/block-breaker/</link>
+      <pubDate>Wed, 12 Apr 2017 23:43:10 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/post/block-breaker/</guid>
+      <description>The second one. Simple Arcanoid clone
+5 levels, 1 life, a lot of fun!
+Play the game! See the source</description>
+    </item>
     
     <item>
       <title>Number Wizard</title>
@@ -20,7 +31,7 @@
       <guid>http://jagget.spb.ru/post/number-wizard/</guid>
       <description>This is the first game I&amp;rsquo;ve ever made.
 The goal of this game is to pick a number. After that the machine will guess the number.
-Play the game!</description>
+Play the game! See the source</description>
     </item>
     
   </channel>
