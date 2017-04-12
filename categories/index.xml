@@ -11,5 +11,23 @@
 	<atom:link href="http://jagget.spb.ru/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Development</title>
+      <link>http://jagget.spb.ru/categories/development/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://jagget.spb.ru/categories/golang/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/categories/golang/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

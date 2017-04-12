@@ -7,9 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2015 Andrew Dvoinishnikov.</copyright>
+    <lastBuildDate>Wed, 12 Apr 2017 17:51:40 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Development</title>
+      <link>http://jagget.spb.ru/tags/development/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://jagget.spb.ru/tags/go/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://jagget.spb.ru/tags/golang/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Templates</title>
+      <link>http://jagget.spb.ru/tags/templates/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes</title>
+      <link>http://jagget.spb.ru/tags/themes/</link>
+      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/tags/themes/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

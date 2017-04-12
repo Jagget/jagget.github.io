@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Dvoinishnikov Hugo Site</title>
-    <link>http://jagget.spb.ru/post/</link>
-    <description>Recent content in Posts on Dvoinishnikov Hugo Site</description>
+    <title>Go on Dvoinishnikov Hugo Site</title>
+    <link>http://jagget.spb.ru/tags/go/</link>
+    <description>Recent content in Go on Dvoinishnikov Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2015 Andrew Dvoinishnikov.</copyright>
     <lastBuildDate>Wed, 12 Apr 2017 17:51:40 +0300</lastBuildDate>
     
-	<atom:link href="http://jagget.spb.ru/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jagget.spb.ru/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
