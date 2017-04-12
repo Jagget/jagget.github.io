@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Dvoinishnikov Hugo Site</title>
+    <title>Categories on Andrew &#34;Jagget&#34;</title>
     <link>http://jagget.spb.ru/categories/</link>
-    <description>Recent content in Categories on Dvoinishnikov Hugo Site</description>
+    <description>Recent content in Categories on Andrew &#34;Jagget&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2015 Andrew Dvoinishnikov.</copyright>
+    <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
     
 	<atom:link href="http://jagget.spb.ru/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,18 @@
     <item>
       <title>Development</title>
       <link>http://jagget.spb.ru/categories/development/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
       <guid>http://jagget.spb.ru/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>http://jagget.spb.ru/categories/golang/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      <title>Personal</title>
+      <link>http://jagget.spb.ru/categories/personal/</link>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
-      <guid>http://jagget.spb.ru/categories/golang/</guid>
+      <guid>http://jagget.spb.ru/categories/personal/</guid>
       <description></description>
     </item>
     

@@ -1,59 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Dvoinishnikov Hugo Site</title>
+    <title>Tags on Andrew &#34;Jagget&#34;</title>
     <link>http://jagget.spb.ru/tags/</link>
-    <description>Recent content in Tags on Dvoinishnikov Hugo Site</description>
+    <description>Recent content in Tags on Andrew &#34;Jagget&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2015 Andrew Dvoinishnikov.</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 17:51:40 +0300</lastBuildDate>
+    <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
+    <lastBuildDate>Wed, 12 Apr 2017 22:45:36 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>http://jagget.spb.ru/tags/development/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      <title>Lytdybr</title>
+      <link>http://jagget.spb.ru/tags/lytdybr/</link>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
-      <guid>http://jagget.spb.ru/tags/development/</guid>
+      <guid>http://jagget.spb.ru/tags/lytdybr/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>http://jagget.spb.ru/tags/go/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      <title>Unity</title>
+      <link>http://jagget.spb.ru/tags/unity/</link>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
-      <guid>http://jagget.spb.ru/tags/go/</guid>
+      <guid>http://jagget.spb.ru/tags/unity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>http://jagget.spb.ru/tags/golang/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      <title>Webgl</title>
+      <link>http://jagget.spb.ru/tags/webgl/</link>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
-      <guid>http://jagget.spb.ru/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>http://jagget.spb.ru/tags/templates/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
-      
-      <guid>http://jagget.spb.ru/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>http://jagget.spb.ru/tags/themes/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
-      
-      <guid>http://jagget.spb.ru/tags/themes/</guid>
+      <guid>http://jagget.spb.ru/tags/webgl/</guid>
       <description></description>
     </item>
     

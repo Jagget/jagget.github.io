@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dvoinishnikov Hugo Site</title>
+    <title>Andrew &#34;Jagget&#34;</title>
     <link>http://jagget.spb.ru/</link>
-    <description>Recent content on Dvoinishnikov Hugo Site</description>
+    <description>Recent content on Andrew &#34;Jagget&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>(c) 2015 Andrew Dvoinishnikov.</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 17:51:40 +0300</lastBuildDate>
+    <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
+    <lastBuildDate>Wed, 12 Apr 2017 22:45:36 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>great to good</title>
-      <link>http://jagget.spb.ru/post/great-to-good/</link>
-      <pubDate>Wed, 12 Apr 2017 17:51:40 +0300</pubDate>
+      <title>Introduction</title>
+      <link>http://jagget.spb.ru/post/introduction/</link>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
-      <guid>http://jagget.spb.ru/post/great-to-good/</guid>
-      <description>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</description>
+      <guid>http://jagget.spb.ru/post/introduction/</guid>
+      <description>Allow me to introduce myself. My name is Andrew.</description>
     </item>
     
     <item>
-      <title>good to great</title>
-      <link>http://jagget.spb.ru/post/good-to-great/</link>
-      <pubDate>Tue, 11 Apr 2017 21:58:25 +0300</pubDate>
+      <title>Number Wizard</title>
+      <link>http://jagget.spb.ru/post/number-wizard/</link>
+      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
       
-      <guid>http://jagget.spb.ru/post/good-to-great/</guid>
-      <description>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</description>
+      <guid>http://jagget.spb.ru/post/number-wizard/</guid>
+      <description>This is the first game I&amp;rsquo;ve ever made.
+ there will be link to WebGL version of the game
+ Play the game!</description>
     </item>
     
   </channel>

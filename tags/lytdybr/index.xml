@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Andrew &#34;Jagget&#34;</title>
-    <link>http://jagget.spb.ru/post/</link>
-    <description>Recent content in Posts on Andrew &#34;Jagget&#34;</description>
+    <title>Lytdybr on Andrew &#34;Jagget&#34;</title>
+    <link>http://jagget.spb.ru/tags/lytdybr/</link>
+    <description>Recent content in Lytdybr on Andrew &#34;Jagget&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
     <lastBuildDate>Wed, 12 Apr 2017 22:45:36 +0300</lastBuildDate>
     
-	<atom:link href="http://jagget.spb.ru/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jagget.spb.ru/tags/lytdybr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       
       <guid>http://jagget.spb.ru/post/introduction/</guid>
       <description>Allow me to introduce myself. My name is Andrew.</description>
-    </item>
-    
-    <item>
-      <title>Number Wizard</title>
-      <link>http://jagget.spb.ru/post/number-wizard/</link>
-      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
-      
-      <guid>http://jagget.spb.ru/post/number-wizard/</guid>
-      <description>This is the first game I&amp;rsquo;ve ever made.
- there will be link to WebGL version of the game
- Play the game!</description>
     </item>
     
   </channel>
