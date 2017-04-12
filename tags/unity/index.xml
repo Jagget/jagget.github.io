@@ -19,8 +19,8 @@
       
       <guid>http://jagget.spb.ru/post/number-wizard/</guid>
       <description>This is the first game I&amp;rsquo;ve ever made.
- there will be link to WebGL version of the game
- Play the game!</description>
+The goal of this game is to pick a number. After that the machine will guess the number.
+Play the game!</description>
     </item>
     
   </channel>
