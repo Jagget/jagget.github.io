@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jagget.spb.ru/post/lets-start-building-new-game/</loc>
+    <lastmod>2017-04-16T23:41:52+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://jagget.spb.ru/post/block-breaker/</loc>
     <lastmod>2017-04-12T23:43:10+03:00</lastmod>
   </url>
@@ -18,7 +23,7 @@
   
   <url>
     <loc>http://jagget.spb.ru/</loc>
-    <lastmod>2017-04-12T23:43:10+03:00</lastmod>
+    <lastmod>2017-04-16T23:41:52+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -29,7 +34,7 @@
   
   <url>
     <loc>http://jagget.spb.ru/categories/development/</loc>
-    <lastmod>2017-04-12T23:43:10+03:00</lastmod>
+    <lastmod>2017-04-16T23:41:52+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,7 +52,7 @@
   
   <url>
     <loc>http://jagget.spb.ru/post/</loc>
-    <lastmod>2017-04-12T23:43:10+03:00</lastmod>
+    <lastmod>2017-04-16T23:41:52+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,6 +71,12 @@
   <url>
     <loc>http://jagget.spb.ru/tags/webgl/</loc>
     <lastmod>2017-04-12T23:43:10+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jagget.spb.ru/tags/work-in-progress/</loc>
+    <lastmod>2017-04-16T23:41:52+03:00</lastmod>
     <priority>0</priority>
   </url>
   

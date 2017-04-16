@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
-    <lastBuildDate>Wed, 12 Apr 2017 23:43:10 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 16 Apr 2017 23:41:52 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up a new project</title>
+      <link>http://jagget.spb.ru/post/lets-start-building-new-game/</link>
+      <pubDate>Sun, 16 Apr 2017 23:41:52 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/post/lets-start-building-new-game/</guid>
+      <description>Hi, people! Let&amp;rsquo;s build a new game. I&amp;rsquo;ll call it Defender and I&amp;rsquo;m going to build Space Invaders clone.</description>
+    </item>
     
     <item>
       <title>Brick (Block) Breaker</title>
