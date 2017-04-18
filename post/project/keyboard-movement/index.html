@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Introduction</title>
+<title>How to make object move in Unity</title>
 <meta name="description" content=" Andrew&#39;s Personal blog about everything">
 <meta name="generator" content="Hugo 0.20" />
-<meta property="og:title" content="Introduction" />
-<meta property="og:description" content="Allow me to introduce myself. My name is Andrew." />
+<meta property="og:title" content="How to make object move in Unity" />
+<meta property="og:description" content="How to make object move in Unity. Player conroller code example" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://jagget.spb.ru/post/introduction/" />
+<meta property="og:url" content="http://jagget.spb.ru/post/project/keyboard-movement/" />
 
 
 
-<meta property="article:published_time" content="2017-04-12T21:45:36&#43;03:00"/>
-<meta property="article:modified_time" content="2017-04-12T21:45:36&#43;03:00"/>
+<meta property="article:published_time" content="2017-04-18T22:52:30&#43;03:00"/>
+<meta property="article:modified_time" content="2017-04-18T22:52:30&#43;03:00"/>
 
 
 
@@ -55,27 +55,71 @@
 <div class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">Introduction</h1>
+			<h1 class="post__title">How to make object move in Unity</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2017-04-12 21:45:36 &#43;0300 MSK">April 12, 2017</time>
+				<time class="post__meta-date" datetime="2017-04-18 22:52:30 &#43;0300 MSK">April 18, 2017</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/personal" rel="category">Personal</a></span>
+					<a class="meta-categories__link" href="/categories/development" rel="category">Development</a></span>
 			</p>
 		</header>
 		<div class="post__content clearfix">
 			<figure class="post__thumbnail">
-				<img src="http://jagget.spb.ru/Screwed_up.png" alt="Introduction">
+				<img src="http://jagget.spb.ru/images/projects/2017-04-18%2023_34_09.png" alt="How to make object move in Unity">
 			</figure>
-			<p>Allow me to introduce myself. My name is Andrew.</p>
+			<pre><code class="language-cs">String header = &quot;The post about coding :)&quot;;
+</code></pre>
+
+<p>Today I&rsquo;ll tell about how to have the ship move by keyboard arrows.</p>
+
+<p>First, add a new script:</p>
+
+<p><img src="/images/projects/2017-04-18 23_08_48.png" alt="Adding a new script" /></p>
+
+<p>Second, add this code in the script:</p>
+
+<pre><code class="language-cs">using UnityEngine;
+
+public class PlayerCtrl : MonoBehaviour
+{
+	public float Speed = 7f;
+	Transform Transf;
+
+	// Use this for initialization
+	void Start ()
+	{
+		Transf = GetComponent&lt;Transform&gt; ();
+	}
+	
+	// Update is called once per frame
+	void Update ()
+	{
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+			Transf.position -= new Vector3 (Speed * Time.deltaTime, 0, 0);
+		} else if (Input.GetKey (KeyCode.RightArrow)) {
+			Transf.position += new Vector3 (Speed * Time.deltaTime, 0, 0);
+		}
+	}
+}
+</code></pre>
+
+<p>What&rsquo;s going on in this script? Let&rsquo;s see.</p>
+
+<ul>
+<li><code>void Start ()</code> &ndash; happens once, on object initialization.</li>
+<li><code>void Update ()</code> &ndash; happens every frame redraw. Means, as many times as your framerate is.</li>
+<li><code>Time.deltaTime</code> &ndash; keeps the delta time from the previous frame.</li>
+</ul>
 
 		</div>
 		
 <div class="post__tags tags clearfix">
 	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/lytdybr/" rel="tag">lytdybr</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/unity/" rel="tag">Unity</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/work-in-progress/" rel="tag">work in progress</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/code-examples/" rel="tag">code examples</a></li>
 	</ul>
 </div>
 
@@ -94,8 +138,8 @@
 </div>
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="http://jagget.spb.ru/post/number-wizard/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Number Wizard</p></a>
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="http://jagget.spb.ru/post/lets-start-building-new-game/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Setting up a new project</p></a>
 	</div>
 </nav>
 
@@ -104,9 +148,9 @@
 	<div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'http-jagget-spb-ru';
-    var disqus_identifier = 'http:\/\/jagget.spb.ru\/post\/introduction\/';
-    var disqus_title = 'Introduction';
-    var disqus_url = 'http:\/\/jagget.spb.ru\/post\/introduction\/';
+    var disqus_identifier = 'http:\/\/jagget.spb.ru\/post\/project\/keyboard-movement\/';
+    var disqus_title = 'How to make object move in Unity';
+    var disqus_url = 'http:\/\/jagget.spb.ru\/post\/project\/keyboard-movement\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unity on Andrew &#34;Jagget&#34;</title>
-    <link>http://jagget.spb.ru/tags/unity/</link>
-    <description>Recent content in Unity on Andrew &#34;Jagget&#34;</description>
+    <title>Code Examples on Andrew &#34;Jagget&#34;</title>
+    <link>http://jagget.spb.ru/tags/code-examples/</link>
+    <description>Recent content in Code Examples on Andrew &#34;Jagget&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
     <lastBuildDate>Tue, 18 Apr 2017 22:52:30 +0300</lastBuildDate>
     
-	<atom:link href="http://jagget.spb.ru/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jagget.spb.ru/tags/code-examples/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,28 +22,6 @@
 First, add a new script:
 Second, add this code in the script:
 using UnityEngine; public class PlayerCtrl : MonoBehaviour { public float Speed = 7f; Transform Transf; // Use this for initialization void Start () { Transf = GetComponent&amp;lt;Transform&amp;gt; (); } // Update is called once per frame void Update () { if (Input.</description>
-    </item>
-    
-    <item>
-      <title>Brick (Block) Breaker</title>
-      <link>http://jagget.spb.ru/post/block-breaker/</link>
-      <pubDate>Wed, 12 Apr 2017 23:43:10 +0300</pubDate>
-      
-      <guid>http://jagget.spb.ru/post/block-breaker/</guid>
-      <description>The second one. Simple Arcanoid clone
-5 levels, 1 life, a lot of fun!
-Play the game! See the source</description>
-    </item>
-    
-    <item>
-      <title>Number Wizard</title>
-      <link>http://jagget.spb.ru/post/number-wizard/</link>
-      <pubDate>Wed, 12 Apr 2017 22:45:36 +0300</pubDate>
-      
-      <guid>http://jagget.spb.ru/post/number-wizard/</guid>
-      <description>This is the first game I&amp;rsquo;ve ever made.
-The goal of this game is to pick a number. After that the machine will guess the number.
-Play the game! See the source</description>
     </item>
     
   </channel>

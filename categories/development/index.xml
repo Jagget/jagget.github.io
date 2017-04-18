@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
-    <lastBuildDate>Sun, 16 Apr 2017 23:41:52 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 18 Apr 2017 22:52:30 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to make object move in Unity</title>
+      <link>http://jagget.spb.ru/post/project/keyboard-movement/</link>
+      <pubDate>Tue, 18 Apr 2017 22:52:30 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/post/project/keyboard-movement/</guid>
+      <description>String header = &amp;quot;The post about coding :)&amp;quot;;  Today I&amp;rsquo;ll tell about how to have the ship move by keyboard arrows.
+First, add a new script:
+Second, add this code in the script:
+using UnityEngine; public class PlayerCtrl : MonoBehaviour { public float Speed = 7f; Transform Transf; // Use this for initialization void Start () { Transf = GetComponent&amp;lt;Transform&amp;gt; (); } // Update is called once per frame void Update () { if (Input.</description>
+    </item>
     
     <item>
       <title>Setting up a new project</title>
