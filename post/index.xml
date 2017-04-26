@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2017 Andrew Dvoinishnikov.</copyright>
-    <lastBuildDate>Tue, 18 Apr 2017 22:52:30 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 26 Apr 2017 22:08:55 +0300</lastBuildDate>
     
 	<atom:link href="http://jagget.spb.ru/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Progress so far</title>
+      <link>http://jagget.spb.ru/post/project/progress-so-far/</link>
+      <pubDate>Wed, 26 Apr 2017 22:08:55 +0300</pubDate>
+      
+      <guid>http://jagget.spb.ru/post/project/progress-so-far/</guid>
+      <description>&lt;p&gt;So, let&amp;rsquo;s take a look at how my new game looks like for now.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to make object move in Unity</title>
@@ -18,10 +29,12 @@
       <pubDate>Tue, 18 Apr 2017 22:52:30 +0300</pubDate>
       
       <guid>http://jagget.spb.ru/post/project/keyboard-movement/</guid>
-      <description>String header = &amp;quot;The post about coding :)&amp;quot;;  Today I&amp;rsquo;ll tell about how to have the ship move by keyboard arrows.
-First, add a new script:
-Second, add this code in the script:
-using UnityEngine; public class PlayerCtrl : MonoBehaviour { public float Speed = 7f; Transform Transf; // Use this for initialization void Start () { Transf = GetComponent&amp;lt;Transform&amp;gt; (); } // Update is called once per frame void Update () { if (Input.</description>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-cs&#34;&gt;String header = &amp;quot;The post about coding :)&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Today I&amp;rsquo;ll tell about how to have the ship move by keyboard arrows.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
